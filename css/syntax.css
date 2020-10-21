@@ -6,5 +6,11 @@
 ************************************/
 
 #main-content > p {
-    color: red;
+    height: 500px;
+    color: cyan;
+    background: 
+        blue
+        url(https://c8.alamy.com/comp/JD2AF9/geometrical-figures-design-JD2AF9.jpg) 
+        no-repeat top center/200px;
+    /* background-color: blue; */
 }
