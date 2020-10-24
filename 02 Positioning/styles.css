@@ -1,0 +1,91 @@
+body {
+    background-color: #eee;
+}
+
+.wrapper {
+    background: #fff;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.wrapper:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+p {text-align: justify;}
+
+img {
+    width: 300px;
+    float: left;
+    margin: 5px 10px;
+}
+
+.blue {
+    background: blue;
+    float: right;
+}
+
+.red {
+    background: red;
+    float: left;
+}
+
+.green {
+    background: green;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+.service h2, .service p {
+    color: #999;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.service {
+    float: left;
+    background: #eee;
+    width: 29%;
+    margin: 1%;
+    padding: 1%;
+    height: 140px;
+}
+
+.services:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.content {
+    padding: 10px;
+    margin: 20px 1%;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.content p {
+    font-size: 20px;
+    text-align: left;
+    column-gap: 50px;
+    column-count: 3;
+    column-rule: 1px solid red;
+    clear: both;
+    margin: 20px 1%;
+    padding: 20px;
+    background: #ccc;
+}
+
+#test {
+    background: red;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+}
